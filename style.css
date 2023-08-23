@@ -18,14 +18,14 @@ body{
     flex-direction: column;
     align-items: center;
     align-content: center;
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
 }
-.img-container{
+.img-container, .img-container-two, .img-container-three{
     margin-left: 10%;
     margin-top: 10%;
 }
-.sedans, .luxur{
+.sedans, .suv, .luxury{
     text-transform: uppercase;
     color:  hsla(0, 0%, 100%, 0.75);
     margin-left: 10%;
@@ -36,26 +36,72 @@ body{
 .paragraphs{
     color: hsla(0, 0%, 100%, 0.75); 
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 10%; 
     font-size: small;
-    width: px;
+    line-height: 2;
 }
 .width{
-    width: 300px;
+    width: 370px;
 }
 .first-container{
     border-radius: 10px 10px 0px 0px;
     background-color:  hsl(31, 77%, 52%);
-    height: 300px;
+    height: 450px;
 }
 .second-container{
     background-color: hsl(184, 100%, 22%);
+    /* margin-top: 30px; */
+    height: 450px;
 }
 .third-container{
     background-color:hsl(179, 100%, 13%);
     border-radius: 0px 0px 10px 10px;
+    height: 450px;
 }
 button{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 10%;
+    border: none;
+    height: 50px;
+    width: 140px;
+    border-radius: 50px;
+    font-size: 15px;
+    text-align: center;
 }
+.attribution{
+    margin-top: 30%;
+}
+.button-one{
+    color:hsl(31, 77%, 52%) ;
+    background-color:  white;
+    margin-top: 30%;
+}
+.button-two{
+    color:hsl(184, 100%, 22%) ;
+    background-color: white;
+    margin-top: 30%;
+}
+.button-three{
+    background-color: white;
+    color:hsl(179, 100%, 13%) ;
+    margin-top: 30%;
+}
+.button-one:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    border: white 3px solid;
+    color: white;
+}
+.button-two:hover{
+    background-color:hsl(184, 100%, 22%) ;
+    border: white 3px solid;
+    color: white;
+}
+.button-three:hover{
+    background-color:hsl(179, 100%, 13%);
+    border: white 3px solid;
+    color: white;
+}
+
+
+
+
