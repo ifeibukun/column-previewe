@@ -7,7 +7,7 @@
 }
 body{
     /* background-color: red; */
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
     font-family: 'Lexend Deca', sans-serif;
     
@@ -20,10 +20,14 @@ body{
     align-content: center;
     /* height: 100vh;
     width: 100vw; */
+    margin-top: 15%;
 }
 .img-container, .img-container-two, .img-container-three{
     margin-left: 10%;
     margin-top: 10%;
+}
+button{
+    cursor: pointer;
 }
 .sedans, .suv, .luxury{
     text-transform: uppercase;
@@ -37,26 +41,28 @@ body{
     color: hsla(0, 0%, 100%, 0.75); 
     margin-top: 10%;
     margin-left: 10%; 
-    font-size: small;
+    font-size: 15px;
     line-height: 2;
+    width: 240px;
+    /* background-color: red; */
 }
 .width{
-    width: 370px;
+    width: 400px;
 }
 .first-container{
     border-radius: 10px 10px 0px 0px;
     background-color:  hsl(31, 77%, 52%);
-    height: 450px;
+    height: 500px;
 }
 .second-container{
     background-color: hsl(184, 100%, 22%);
     /* margin-top: 30px; */
-    height: 450px;
+    height: 500px;
 }
 .third-container{
     background-color:hsl(179, 100%, 13%);
     border-radius: 0px 0px 10px 10px;
-    height: 450px;
+    height: 500px;
 }
 button{
     margin-top: 30px;
@@ -67,6 +73,7 @@ button{
     border-radius: 50px;
     font-size: 15px;
     text-align: center;
+    margin-bottom: 10%;
 }
 .attribution{
     margin-top: 30%;
@@ -74,17 +81,17 @@ button{
 .button-one{
     color:hsl(31, 77%, 52%) ;
     background-color:  white;
-    margin-top: 30%;
+    margin-top: 15%;
 }
 .button-two{
     color:hsl(184, 100%, 22%) ;
     background-color: white;
-    margin-top: 30%;
+    margin-top: 15%;
 }
 .button-three{
     background-color: white;
     color:hsl(179, 100%, 13%) ;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 .button-one:hover{
     background-color:hsl(31, 77%, 52%) ;
@@ -100,6 +107,42 @@ button{
     background-color:hsl(179, 100%, 13%);
     border: white 3px solid;
     color: white;
+}
+ @media (min-width:1000px) {
+     .whole-container{
+        display: flex;
+        background-color:  hsla(0, 0%, 100%, 0.75);
+        flex-direction: row;
+        /* background-color: red; */
+        justify-content: center;
+        /* align-items: center;
+        align-content: center; */
+        height: 30vh;
+        /* width: 100vw; */
+    } 
+    .first-container{
+        border-radius: 10px 0px 0px 10px;
+        width: 300px;
+    }
+    .third-container{
+        border-radius: 0px 10px 10px 0px;
+        width: 300px;
+    }
+    .second-container{
+        width: 300px;
+    }
+    .width{
+        width: 200px;
+    }
+    button{
+        cursor: pointer;
+    }
+    .paragraphs{
+        margin-left: 15%;
+    }
+    body{
+        margin-top: 15.5%;
+    }
 }
 
 
